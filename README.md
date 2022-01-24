@@ -9,8 +9,6 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-## Requirements
-
 ## Installation
 
 GARippleButton is available through [CocoaPods](https://cocoapods.org). To install
@@ -22,8 +20,8 @@ pod 'GARippleButton'
 
 ## Author
 
-lidorf-gini-apps, lidorf@gini-apps.com
+Lidor Fadida, lidorf@gini-apps.com
 
 ## License
 
-GARippleButton is available under the MIT license. See the LICENSE file for more info.
+Copyright (c) GiniApps, GARippleButton is available under the MIT license. See the LICENSE file for more info.
