@@ -1,0 +1,22 @@
+{
+  "name": "GARippleButton",
+  "version": "0.1.0",
+  "summary": "A short description of GARippleButton.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/lidorf-gini-apps/GARippleButton",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "lidorf-gini-apps": "lidorf@gini-apps.com"
+  },
+  "source": {
+    "git": "https://github.com/lidorf-gini-apps/GARippleButton.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "GARippleButton/Classes/**/*"
+}

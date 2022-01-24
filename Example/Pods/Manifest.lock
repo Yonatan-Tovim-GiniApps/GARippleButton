@@ -1,0 +1,16 @@
+PODS:
+  - GARippleButton (0.1.0)
+
+DEPENDENCIES:
+  - GARippleButton (from `../`)
+
+EXTERNAL SOURCES:
+  GARippleButton:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  GARippleButton: 138f3bcec1f94b407290e89324562c5d76239fc4
+
+PODFILE CHECKSUM: 490e7b176281e96c926090c7c9a85515e84a5174
+
+COCOAPODS: 1.10.2

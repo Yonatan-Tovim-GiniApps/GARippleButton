@@ -1,0 +1,770 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13D34A20D7F1629E5FE1C6B35FBF55EA /* GARippleButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C5CBD3B614B8960F2EEF457D2D762221 /* GARippleButton-dummy.m */; };
+		2E8E2E66F5A4C785A8C70C55E4A395C0 /* Pods-GARippleButton_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AFC8EEE4DDDBCCC019AFAC97EA9FC0B7 /* Pods-GARippleButton_Tests-dummy.m */; };
+		37331F229EE63970C815B44F60FD570A /* Pods-GARippleButton_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 45D8BB8B0937C50F4CCD3A117A568E50 /* Pods-GARippleButton_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E17794E6D54CCF7BB1F032DD7C421EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		6BDBA4E0BE913CF39A61781ADCB8B53D /* Pods-GARippleButton_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 774E954BA86664AB2040032323D70E0E /* Pods-GARippleButton_Example-dummy.m */; };
+		C9F4DFC2A87D1CAF0CB8838340266F0C /* GARippleButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E31966AA75CB447E43ADE51C38189B34 /* GARippleButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CEAFDB19DD0C1016641C345A0B7D3398 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD309BDDFF58FAA178D21F6897C1168 /* ReplaceMe.swift */; };
+		D9954EC1798C0900BA2F258836778181 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		F6CB2A7B641E2FE7D9E5CF3A33F691E8 /* Pods-GARippleButton_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7084FABCA4B3A5EB552E76635A03F414 /* Pods-GARippleButton_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FD1697246A3AB225EB8C7D4E579A7331 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3662BDC0FD4AE1768CDE31CE18737F95 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A23FF14CCA30F3D97508318CB190352;
+			remoteInfo = "Pods-GARippleButton_Example";
+		};
+		B64ABF44E39E75749174B5278449A3E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05ED62C74E8D02AC4C11973404F40326;
+			remoteInfo = GARippleButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		168B7B6BA15407FCA575DA180EE84DBC /* GARippleButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GARippleButton.modulemap; sourceTree = "<group>"; };
+		1B39CC4540BC5BEAD45812BE5D8318B1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		258B62E15C14E5136498C3B43317085D /* Pods-GARippleButton_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GARippleButton_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		27A35584C77CAC1E7EF0EABFD2CA3D3F /* GARippleButton.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GARippleButton.debug.xcconfig; sourceTree = "<group>"; };
+		2DE39BA89E23B3FDA82D31751891AF2E /* Pods-GARippleButton_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GARippleButton_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		2F47EFE920FAADC64CB9C84FB850CA8E /* GARippleButton.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = GARippleButton.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		3578762832B91B32A5471AF5A68A4C5A /* GARippleButton-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GARippleButton-Info.plist"; sourceTree = "<group>"; };
+		39683EDE8A1C3DC71382D7B112F61D25 /* GARippleButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GARippleButton.framework; path = GARippleButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		45D8BB8B0937C50F4CCD3A117A568E50 /* Pods-GARippleButton_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GARippleButton_Example-umbrella.h"; sourceTree = "<group>"; };
+		67C919D1EC388EE9BFA4450C050B71DD /* Pods-GARippleButton_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GARippleButton_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7084FABCA4B3A5EB552E76635A03F414 /* Pods-GARippleButton_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GARippleButton_Tests-umbrella.h"; sourceTree = "<group>"; };
+		70F5CEF703EAF144552373DDE5B832B3 /* Pods_GARippleButton_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GARippleButton_Example.framework; path = "Pods-GARippleButton_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		774E954BA86664AB2040032323D70E0E /* Pods-GARippleButton_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GARippleButton_Example-dummy.m"; sourceTree = "<group>"; };
+		794749B0F453707B43ABF8A66A475144 /* Pods-GARippleButton_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GARippleButton_Example.modulemap"; sourceTree = "<group>"; };
+		7E14C739A8CAB7330DE20FE201D01AD5 /* Pods_GARippleButton_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GARippleButton_Tests.framework; path = "Pods-GARippleButton_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		856492E88B871C9E2D160F7C1977A369 /* GARippleButton.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GARippleButton.release.xcconfig; sourceTree = "<group>"; };
+		95386A8D7264ADE283B78DC5EF616E59 /* Pods-GARippleButton_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GARippleButton_Tests-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		ABD309BDDFF58FAA178D21F6897C1168 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = GARippleButton/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		AF87DDA04B34BEDC2D9A8536BC8D3925 /* GARippleButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GARippleButton-prefix.pch"; sourceTree = "<group>"; };
+		AFC8EEE4DDDBCCC019AFAC97EA9FC0B7 /* Pods-GARippleButton_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GARippleButton_Tests-dummy.m"; sourceTree = "<group>"; };
+		B5AF6C0F468544AE10195A078FB65E6E /* Pods-GARippleButton_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GARippleButton_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		B70F7A492147C98CA82A8B125AB4D1C4 /* Pods-GARippleButton_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GARippleButton_Tests.modulemap"; sourceTree = "<group>"; };
+		C1448CFB2D233D71A2D8B5C816CC21F6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		C5CBD3B614B8960F2EEF457D2D762221 /* GARippleButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GARippleButton-dummy.m"; sourceTree = "<group>"; };
+		C93861F0CD70FCBF08CE31E11CD8792B /* Pods-GARippleButton_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GARippleButton_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		CD0A1C527585B4D293B452EB69F70FBF /* Pods-GARippleButton_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GARippleButton_Example-frameworks.sh"; sourceTree = "<group>"; };
+		CD83C18673AD6702BDFC440200B8C774 /* Pods-GARippleButton_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GARippleButton_Example-Info.plist"; sourceTree = "<group>"; };
+		D6A23CA197258D5530148426964AF905 /* Pods-GARippleButton_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GARippleButton_Example.release.xcconfig"; sourceTree = "<group>"; };
+		D7CCFBB2EF096E55B4AB53A75444C267 /* Pods-GARippleButton_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GARippleButton_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E31966AA75CB447E43ADE51C38189B34 /* GARippleButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GARippleButton-umbrella.h"; sourceTree = "<group>"; };
+		FEDC85E0409795EE192F3EB825A3AD2E /* Pods-GARippleButton_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GARippleButton_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2C9FC35AE4ECCE6A2CAE8AE1C0623C3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E17794E6D54CCF7BB1F032DD7C421EA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		808826CF9D30712BA673FE93EE2D359A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9954EC1798C0900BA2F258836778181 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F217C966A52D7026EFF12FFF491FF71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD1697246A3AB225EB8C7D4E579A7331 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18B73B0ABF4F8490A62559FEC149D731 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				168B7B6BA15407FCA575DA180EE84DBC /* GARippleButton.modulemap */,
+				C5CBD3B614B8960F2EEF457D2D762221 /* GARippleButton-dummy.m */,
+				3578762832B91B32A5471AF5A68A4C5A /* GARippleButton-Info.plist */,
+				AF87DDA04B34BEDC2D9A8536BC8D3925 /* GARippleButton-prefix.pch */,
+				E31966AA75CB447E43ADE51C38189B34 /* GARippleButton-umbrella.h */,
+				27A35584C77CAC1E7EF0EABFD2CA3D3F /* GARippleButton.debug.xcconfig */,
+				856492E88B871C9E2D160F7C1977A369 /* GARippleButton.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/GARippleButton";
+			sourceTree = "<group>";
+		};
+		43FB32536E19E7449CD08EDE0C6EC54C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FB26BAAC09E4EECECC46FC55890843AE /* Pods-GARippleButton_Example */,
+				CB396DB2931EBAC5135963829135B59E /* Pods-GARippleButton_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		9A335AD79578A3F039FD289272E54B37 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AFCF10FF332A74B5E96A3CE7C8E1D43D /* GARippleButton */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		A3AED43AD2F58F620E23A2CDD2662991 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				39683EDE8A1C3DC71382D7B112F61D25 /* GARippleButton.framework */,
+				70F5CEF703EAF144552373DDE5B832B3 /* Pods_GARippleButton_Example.framework */,
+				7E14C739A8CAB7330DE20FE201D01AD5 /* Pods_GARippleButton_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD7B419A62EDC2B907BC2079AD7487AB /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				2F47EFE920FAADC64CB9C84FB850CA8E /* GARippleButton.podspec */,
+				C1448CFB2D233D71A2D8B5C816CC21F6 /* LICENSE */,
+				1B39CC4540BC5BEAD45812BE5D8318B1 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		AFCF10FF332A74B5E96A3CE7C8E1D43D /* GARippleButton */ = {
+			isa = PBXGroup;
+			children = (
+				ABD309BDDFF58FAA178D21F6897C1168 /* ReplaceMe.swift */,
+				AD7B419A62EDC2B907BC2079AD7487AB /* Pod */,
+				18B73B0ABF4F8490A62559FEC149D731 /* Support Files */,
+			);
+			name = GARippleButton;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		CB396DB2931EBAC5135963829135B59E /* Pods-GARippleButton_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B70F7A492147C98CA82A8B125AB4D1C4 /* Pods-GARippleButton_Tests.modulemap */,
+				D7CCFBB2EF096E55B4AB53A75444C267 /* Pods-GARippleButton_Tests-acknowledgements.markdown */,
+				FEDC85E0409795EE192F3EB825A3AD2E /* Pods-GARippleButton_Tests-acknowledgements.plist */,
+				AFC8EEE4DDDBCCC019AFAC97EA9FC0B7 /* Pods-GARippleButton_Tests-dummy.m */,
+				95386A8D7264ADE283B78DC5EF616E59 /* Pods-GARippleButton_Tests-Info.plist */,
+				7084FABCA4B3A5EB552E76635A03F414 /* Pods-GARippleButton_Tests-umbrella.h */,
+				258B62E15C14E5136498C3B43317085D /* Pods-GARippleButton_Tests.debug.xcconfig */,
+				2DE39BA89E23B3FDA82D31751891AF2E /* Pods-GARippleButton_Tests.release.xcconfig */,
+			);
+			name = "Pods-GARippleButton_Tests";
+			path = "Target Support Files/Pods-GARippleButton_Tests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				9A335AD79578A3F039FD289272E54B37 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				A3AED43AD2F58F620E23A2CDD2662991 /* Products */,
+				43FB32536E19E7449CD08EDE0C6EC54C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FB26BAAC09E4EECECC46FC55890843AE /* Pods-GARippleButton_Example */ = {
+			isa = PBXGroup;
+			children = (
+				794749B0F453707B43ABF8A66A475144 /* Pods-GARippleButton_Example.modulemap */,
+				67C919D1EC388EE9BFA4450C050B71DD /* Pods-GARippleButton_Example-acknowledgements.markdown */,
+				B5AF6C0F468544AE10195A078FB65E6E /* Pods-GARippleButton_Example-acknowledgements.plist */,
+				774E954BA86664AB2040032323D70E0E /* Pods-GARippleButton_Example-dummy.m */,
+				CD0A1C527585B4D293B452EB69F70FBF /* Pods-GARippleButton_Example-frameworks.sh */,
+				CD83C18673AD6702BDFC440200B8C774 /* Pods-GARippleButton_Example-Info.plist */,
+				45D8BB8B0937C50F4CCD3A117A568E50 /* Pods-GARippleButton_Example-umbrella.h */,
+				C93861F0CD70FCBF08CE31E11CD8792B /* Pods-GARippleButton_Example.debug.xcconfig */,
+				D6A23CA197258D5530148426964AF905 /* Pods-GARippleButton_Example.release.xcconfig */,
+			);
+			name = "Pods-GARippleButton_Example";
+			path = "Target Support Files/Pods-GARippleButton_Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		AFD15DE81C6E6BA18009BA3B7A662A35 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37331F229EE63970C815B44F60FD570A /* Pods-GARippleButton_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDBF279902CAF517751D8B3600A4FF9A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6CB2A7B641E2FE7D9E5CF3A33F691E8 /* Pods-GARippleButton_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0989B0B0DF10039D2119D7477351746 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9F4DFC2A87D1CAF0CB8838340266F0C /* GARippleButton-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		05ED62C74E8D02AC4C11973404F40326 /* GARippleButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE596861184C3AC68EACFF40609E46EE /* Build configuration list for PBXNativeTarget "GARippleButton" */;
+			buildPhases = (
+				F0989B0B0DF10039D2119D7477351746 /* Headers */,
+				E97E2D55EADEF68034879C652CA173D6 /* Sources */,
+				2C9FC35AE4ECCE6A2CAE8AE1C0623C3E /* Frameworks */,
+				883A693D8920F2838BF2858AEF3809A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GARippleButton;
+			productName = GARippleButton;
+			productReference = 39683EDE8A1C3DC71382D7B112F61D25 /* GARippleButton.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2A23FF14CCA30F3D97508318CB190352 /* Pods-GARippleButton_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6D95D5168E8D53E4D06DBDB65C5ADE2 /* Build configuration list for PBXNativeTarget "Pods-GARippleButton_Example" */;
+			buildPhases = (
+				AFD15DE81C6E6BA18009BA3B7A662A35 /* Headers */,
+				D8D54C54F6F657C0511AECF29313F807 /* Sources */,
+				8F217C966A52D7026EFF12FFF491FF71 /* Frameworks */,
+				40ECC18330C450E014EC2DF9D6494BDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE22F75C2D60AA8A7D26A4E48458D852 /* PBXTargetDependency */,
+			);
+			name = "Pods-GARippleButton_Example";
+			productName = "Pods-GARippleButton_Example";
+			productReference = 70F5CEF703EAF144552373DDE5B832B3 /* Pods_GARippleButton_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2A7CB287C6273C9267D02C80D650F8CC /* Pods-GARippleButton_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2FDB5A7897C7A23804BC5290BE466E7 /* Build configuration list for PBXNativeTarget "Pods-GARippleButton_Tests" */;
+			buildPhases = (
+				CDBF279902CAF517751D8B3600A4FF9A /* Headers */,
+				7B471C7C11C2B2D3CE76F18543F1A22F /* Sources */,
+				808826CF9D30712BA673FE93EE2D359A /* Frameworks */,
+				CA3A3732B66B0D1BA1D701CBD8C3B19E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				87EE40A7879797BEE2B844A03A0130A8 /* PBXTargetDependency */,
+			);
+			name = "Pods-GARippleButton_Tests";
+			productName = "Pods-GARippleButton_Tests";
+			productReference = 7E14C739A8CAB7330DE20FE201D01AD5 /* Pods_GARippleButton_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = A3AED43AD2F58F620E23A2CDD2662991 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				05ED62C74E8D02AC4C11973404F40326 /* GARippleButton */,
+				2A23FF14CCA30F3D97508318CB190352 /* Pods-GARippleButton_Example */,
+				2A7CB287C6273C9267D02C80D650F8CC /* Pods-GARippleButton_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		40ECC18330C450E014EC2DF9D6494BDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		883A693D8920F2838BF2858AEF3809A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA3A3732B66B0D1BA1D701CBD8C3B19E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7B471C7C11C2B2D3CE76F18543F1A22F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E8E2E66F5A4C785A8C70C55E4A395C0 /* Pods-GARippleButton_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8D54C54F6F657C0511AECF29313F807 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BDBA4E0BE913CF39A61781ADCB8B53D /* Pods-GARippleButton_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E97E2D55EADEF68034879C652CA173D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13D34A20D7F1629E5FE1C6B35FBF55EA /* GARippleButton-dummy.m in Sources */,
+				CEAFDB19DD0C1016641C345A0B7D3398 /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		87EE40A7879797BEE2B844A03A0130A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-GARippleButton_Example";
+			target = 2A23FF14CCA30F3D97508318CB190352 /* Pods-GARippleButton_Example */;
+			targetProxy = 3662BDC0FD4AE1768CDE31CE18737F95 /* PBXContainerItemProxy */;
+		};
+		FE22F75C2D60AA8A7D26A4E48458D852 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GARippleButton;
+			target = 05ED62C74E8D02AC4C11973404F40326 /* GARippleButton */;
+			targetProxy = B64ABF44E39E75749174B5278449A3E4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		13AA6C077E626FD34A512A9E627633E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 856492E88B871C9E2D160F7C1977A369 /* GARippleButton.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GARippleButton/GARippleButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GARippleButton/GARippleButton-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GARippleButton/GARippleButton.modulemap";
+				PRODUCT_MODULE_NAME = GARippleButton;
+				PRODUCT_NAME = GARippleButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		17D7D25287E4D451877D176C253DE7D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27A35584C77CAC1E7EF0EABFD2CA3D3F /* GARippleButton.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GARippleButton/GARippleButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GARippleButton/GARippleButton-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GARippleButton/GARippleButton.modulemap";
+				PRODUCT_MODULE_NAME = GARippleButton;
+				PRODUCT_NAME = GARippleButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		23E393F3E016EB81C208DBCC8F6FFD64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 258B62E15C14E5136498C3B43317085D /* Pods-GARippleButton_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GARippleButton_Tests/Pods-GARippleButton_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GARippleButton_Tests/Pods-GARippleButton_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		57FBE5139D7C01A746E303A585A831B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C93861F0CD70FCBF08CE31E11CD8792B /* Pods-GARippleButton_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GARippleButton_Example/Pods-GARippleButton_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GARippleButton_Example/Pods-GARippleButton_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		68EB3F6D992AF4A361AEA09364D11818 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6A23CA197258D5530148426964AF905 /* Pods-GARippleButton_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GARippleButton_Example/Pods-GARippleButton_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GARippleButton_Example/Pods-GARippleButton_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7481FA8608F7CEEA608CD6C7E55D24FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DE39BA89E23B3FDA82D31751891AF2E /* Pods-GARippleButton_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GARippleButton_Tests/Pods-GARippleButton_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GARippleButton_Tests/Pods-GARippleButton_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2FDB5A7897C7A23804BC5290BE466E7 /* Build configuration list for PBXNativeTarget "Pods-GARippleButton_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23E393F3E016EB81C208DBCC8F6FFD64 /* Debug */,
+				7481FA8608F7CEEA608CD6C7E55D24FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6D95D5168E8D53E4D06DBDB65C5ADE2 /* Build configuration list for PBXNativeTarget "Pods-GARippleButton_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57FBE5139D7C01A746E303A585A831B6 /* Debug */,
+				68EB3F6D992AF4A361AEA09364D11818 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE596861184C3AC68EACFF40609E46EE /* Build configuration list for PBXNativeTarget "GARippleButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17D7D25287E4D451877D176C253DE7D8 /* Debug */,
+				13AA6C077E626FD34A512A9E627633E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

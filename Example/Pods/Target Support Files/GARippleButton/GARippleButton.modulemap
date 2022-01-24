@@ -1,0 +1,6 @@
+framework module GARippleButton {
+  umbrella header "GARippleButton-umbrella.h"
+
+  export *
+  module * { export * }
+}
