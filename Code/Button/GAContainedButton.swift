@@ -1,5 +1,5 @@
 //
-//  ContainedButton.swift
+//  GAContainedButton.swift
 //  GARippleButton
 //
 //  Created by Lidor Fadida on 24/01/2022.
@@ -13,7 +13,7 @@ protocol ContainedButtonProtocol
 }
 
 @IBDesignable
-public class ContainedButton: ShapeableTrackableButton, Rippleable
+public class GAContainedButton: ShapeableTrackableButton, Rippleable
 {
     let containerLayer  : CAShapeLayer = {
         let containerLayer = CAShapeLayer()
@@ -90,7 +90,6 @@ public class ContainedButton: ShapeableTrackableButton, Rippleable
     public override func layoutSubviews()
     {
         super.layoutSubviews()
-        let padding             : CGFloat = 8.0
         let cornerRadii         : CGFloat
         switch shape
         {
@@ -98,7 +97,7 @@ public class ContainedButton: ShapeableTrackableButton, Rippleable
         case .circle: cornerRadii = bounds.width / 2.0
         case .roundedRect(let radius): cornerRadii = radius
         }
-        let boundsForLayer      = bounds.insetBy(dx: padding, dy: padding)
+        let boundsForLayer      = bounds
         let pathForLayer        = UIBezierPath(roundedRect: boundsForLayer, cornerRadius: cornerRadii).cgPath
         let positionForLayer    = CGPoint(x: boundsForLayer.midX, y: boundsForLayer.midY)
         shadowLayer.shadowPath  = pathForLayer
@@ -132,7 +131,7 @@ public class ContainedButton: ShapeableTrackableButton, Rippleable
 }
 
 //MARK: - Private API
-extension ContainedButton
+extension GAContainedButton
 {
     private func commonInit()
     {
@@ -142,7 +141,7 @@ extension ContainedButton
         rippleColor == nil ? rippleColor = titleLabel?.textColor.withAlphaComponent(rippleOpacity) : Void()
         layer.insertSublayer(shadowLayer, at: 0)
         layer.insertSublayer(containerLayer, at: 3)
-        
+
         containerLayer.masksToBounds = true
     }
     

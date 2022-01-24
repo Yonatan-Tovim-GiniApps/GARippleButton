@@ -59,7 +59,6 @@ extension GARippleButton
     {
         layer.masksToBounds = true
         clipsToBounds       = true
-        
         rippleColor == nil ? rippleColor = titleLabel?.textColor.withAlphaComponent(rippleOpacity) : Void()
     }
     

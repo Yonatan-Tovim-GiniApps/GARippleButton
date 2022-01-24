@@ -9,15 +9,25 @@ import UIKit
 
 public class ShapeableTrackableButton : UIButton
 {
-    open var shape              : Shape = .roundedRect(cornerRadii: 10.0)
+    internal var shape          : Shape = .roundedRect(cornerRadii: 10.0)
     internal let rippleLayer    : CAShapeLayer = CAShapeLayer()
-    internal var lastTouch      : CGPoint?   
-}
+    internal var lastTouch      : CGPoint?
+    
+    //MARK: - Lifecycle
+    override init(frame: CGRect)
+    {
+        super.init(frame: frame)
+        commonInit()
+    }
+    
+    required init?(coder: NSCoder)
+    {
+        super.init(coder: coder)
+        commonInit()
+    }
+    
 
-//MARK: - Lifecycle
-public extension ShapeableTrackableButton
-{
-    override func layoutSubviews()
+    override public func layoutSubviews()
     {
         super.layoutSubviews()
         subviews.forEach
@@ -26,6 +36,30 @@ public extension ShapeableTrackableButton
         }
         configureLayer()
         configureShapeLayer()
+    }
+    
+    private func commonInit()
+    {
+        setupEdgeInsets()
+    }
+}
+
+//MARK: - Lifecycle
+public extension ShapeableTrackableButton
+{
+    private func setupEdgeInsets()
+    {
+        let margin = 8.0
+        let marginInset = UIEdgeInsets(top: margin, left: margin, bottom: margin, right: margin)
+        if #available(iOS 15, *)
+        {
+            var config              = Configuration.plain()
+            config.contentInsets    = NSDirectionalEdgeInsets(top: margin, leading: margin, bottom: margin, trailing: margin)
+            configuration           = config
+        }else
+        {
+            contentEdgeInsets       = marginInset
+        }
     }
 }
 

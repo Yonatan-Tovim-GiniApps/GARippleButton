@@ -15,15 +15,15 @@
 		10772ED8279EE76D0071D6C5 /* CABasicAnimation+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10772EC4279EE76D0071D6C5 /* CABasicAnimation+Extensions.swift */; };
 		10772ED9279EE76D0071D6C5 /* CALayer+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10772EC5279EE76D0071D6C5 /* CALayer+Extensions.swift */; };
 		10772EDA279EE76D0071D6C5 /* CGPoint+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10772EC6279EE76D0071D6C5 /* CGPoint+Extensions.swift */; };
-		10772EDB279EE76D0071D6C5 /* ContainedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10772EC8279EE76D0071D6C5 /* ContainedButton.swift */; };
-		10772EDC279EE76D0071D6C5 /* OutlinedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10772EC9279EE76D0071D6C5 /* OutlinedButton.swift */; };
-		10772EDD279EE76D0071D6C5 /* TextButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10772ECA279EE76D0071D6C5 /* TextButton.swift */; };
-		10772EDE279EE76D0071D6C5 /* Typeable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10772ECB279EE76D0071D6C5 /* Typeable.swift */; };
+		10772EDB279EE76D0071D6C5 /* GAContainedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10772EC8279EE76D0071D6C5 /* GAContainedButton.swift */; };
+		10772EDC279EE76D0071D6C5 /* GAOutlinedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10772EC9279EE76D0071D6C5 /* GAOutlinedButton.swift */; };
+		10772EDD279EE76D0071D6C5 /* GATextButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10772ECA279EE76D0071D6C5 /* GATextButton.swift */; };
 		10772EDF279EE76D0071D6C5 /* GARippleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10772ECC279EE76D0071D6C5 /* GARippleButton.swift */; };
 		10772EE0279EE76D0071D6C5 /* ShapeableTrackableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10772ECE279EE76D0071D6C5 /* ShapeableTrackableButton.swift */; };
 		10772EE1279EE76D0071D6C5 /* Trackable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10772ECF279EE76D0071D6C5 /* Trackable.swift */; };
 		10772EE2279EE76D0071D6C5 /* TrackableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10772ED0279EE76D0071D6C5 /* TrackableView.swift */; };
 		10772EE3279EE76D0071D6C5 /* ScaleType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10772ED2279EE76D0071D6C5 /* ScaleType.swift */; };
+		10C1169B279F04BC00252C3B /* GACircleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C1169A279F04BC00252C3B /* GACircleButton.swift */; };
 		13D34A20D7F1629E5FE1C6B35FBF55EA /* GARippleButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C5CBD3B614B8960F2EEF457D2D762221 /* GARippleButton-dummy.m */; };
 		2E8E2E66F5A4C785A8C70C55E4A395C0 /* Pods-GARippleButton_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AFC8EEE4DDDBCCC019AFAC97EA9FC0B7 /* Pods-GARippleButton_Tests-dummy.m */; };
 		37331F229EE63970C815B44F60FD570A /* Pods-GARippleButton_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 45D8BB8B0937C50F4CCD3A117A568E50 /* Pods-GARippleButton_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -61,15 +61,15 @@
 		10772EC4279EE76D0071D6C5 /* CABasicAnimation+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CABasicAnimation+Extensions.swift"; sourceTree = "<group>"; };
 		10772EC5279EE76D0071D6C5 /* CALayer+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CALayer+Extensions.swift"; sourceTree = "<group>"; };
 		10772EC6279EE76D0071D6C5 /* CGPoint+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGPoint+Extensions.swift"; sourceTree = "<group>"; };
-		10772EC8279EE76D0071D6C5 /* ContainedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainedButton.swift; sourceTree = "<group>"; };
-		10772EC9279EE76D0071D6C5 /* OutlinedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OutlinedButton.swift; sourceTree = "<group>"; };
-		10772ECA279EE76D0071D6C5 /* TextButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextButton.swift; sourceTree = "<group>"; };
-		10772ECB279EE76D0071D6C5 /* Typeable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Typeable.swift; sourceTree = "<group>"; };
+		10772EC8279EE76D0071D6C5 /* GAContainedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GAContainedButton.swift; sourceTree = "<group>"; };
+		10772EC9279EE76D0071D6C5 /* GAOutlinedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GAOutlinedButton.swift; sourceTree = "<group>"; };
+		10772ECA279EE76D0071D6C5 /* GATextButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GATextButton.swift; sourceTree = "<group>"; };
 		10772ECC279EE76D0071D6C5 /* GARippleButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GARippleButton.swift; sourceTree = "<group>"; };
 		10772ECE279EE76D0071D6C5 /* ShapeableTrackableButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShapeableTrackableButton.swift; sourceTree = "<group>"; };
 		10772ECF279EE76D0071D6C5 /* Trackable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Trackable.swift; sourceTree = "<group>"; };
 		10772ED0279EE76D0071D6C5 /* TrackableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackableView.swift; sourceTree = "<group>"; };
 		10772ED2279EE76D0071D6C5 /* ScaleType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScaleType.swift; sourceTree = "<group>"; };
+		10C1169A279F04BC00252C3B /* GACircleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GACircleButton.swift; sourceTree = "<group>"; };
 		168B7B6BA15407FCA575DA180EE84DBC /* GARippleButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GARippleButton.modulemap; sourceTree = "<group>"; };
 		1B39CC4540BC5BEAD45812BE5D8318B1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		258B62E15C14E5136498C3B43317085D /* Pods-GARippleButton_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GARippleButton_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -139,7 +139,6 @@
 				10772EC0279EE76D0071D6C5 /* Ripple */,
 				10772EC2279EE76D0071D6C5 /* Extensions */,
 				10772EC7279EE76D0071D6C5 /* Button */,
-				10772ECC279EE76D0071D6C5 /* GARippleButton.swift */,
 				10772ECD279EE76D0071D6C5 /* Tracking */,
 				10772ED1279EE76D0071D6C5 /* Animations */,
 			);
@@ -178,10 +177,11 @@
 		10772EC7279EE76D0071D6C5 /* Button */ = {
 			isa = PBXGroup;
 			children = (
-				10772EC8279EE76D0071D6C5 /* ContainedButton.swift */,
-				10772EC9279EE76D0071D6C5 /* OutlinedButton.swift */,
-				10772ECA279EE76D0071D6C5 /* TextButton.swift */,
-				10772ECB279EE76D0071D6C5 /* Typeable.swift */,
+				10772ECC279EE76D0071D6C5 /* GARippleButton.swift */,
+				10772EC8279EE76D0071D6C5 /* GAContainedButton.swift */,
+				10772EC9279EE76D0071D6C5 /* GAOutlinedButton.swift */,
+				10772ECA279EE76D0071D6C5 /* GATextButton.swift */,
+				10C1169A279F04BC00252C3B /* GACircleButton.swift */,
 			);
 			path = Button;
 			sourceTree = "<group>";
@@ -492,15 +492,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				10772EDD279EE76D0071D6C5 /* TextButton.swift in Sources */,
+				10772EDD279EE76D0071D6C5 /* GATextButton.swift in Sources */,
 				10772EE2279EE76D0071D6C5 /* TrackableView.swift in Sources */,
-				10772EDE279EE76D0071D6C5 /* Typeable.swift in Sources */,
 				10772ED7279EE76D0071D6C5 /* UIView+Extensions.swift in Sources */,
 				10772EE1279EE76D0071D6C5 /* Trackable.swift in Sources */,
 				10772ED6279EE76D0071D6C5 /* Rippleable.swift in Sources */,
+				10C1169B279F04BC00252C3B /* GACircleButton.swift in Sources */,
 				10772ED8279EE76D0071D6C5 /* CABasicAnimation+Extensions.swift in Sources */,
-				10772EDB279EE76D0071D6C5 /* ContainedButton.swift in Sources */,
-				10772EDC279EE76D0071D6C5 /* OutlinedButton.swift in Sources */,
+				10772EDB279EE76D0071D6C5 /* GAContainedButton.swift in Sources */,
+				10772EDC279EE76D0071D6C5 /* GAOutlinedButton.swift in Sources */,
 				10772EDF279EE76D0071D6C5 /* GARippleButton.swift in Sources */,
 				10772EE3279EE76D0071D6C5 /* ScaleType.swift in Sources */,
 				13D34A20D7F1629E5FE1C6B35FBF55EA /* GARippleButton-dummy.m in Sources */,
