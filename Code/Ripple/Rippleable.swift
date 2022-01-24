@@ -63,7 +63,8 @@ extension Rippleable where Self : ShapeableTrackableButton
     }
 }
 
-// Helper function inserted by Swift 4.2 migrator.
-fileprivate func convertFromCAMediaTimingFillMode(_ input: CAMediaTimingFillMode) -> String {
+///Helper function inserted by Swift 4.2 migrator.
+fileprivate func convertFromCAMediaTimingFillMode(_ input: CAMediaTimingFillMode) -> String
+{
 	return input.rawValue
 }

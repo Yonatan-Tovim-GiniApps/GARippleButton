@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="vXZ-lx-hvc">
-    <device id="retina4_7" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="vXZ-lx-hvc">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -20,11 +18,81 @@
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fim-iN-dH0" customClass="GAOutlinedButton" customModule="GARippleButton">
+                                <rect key="frame" x="152" y="127.5" width="71" height="33"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Outlined"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I0S-31-Et1" customClass="GATextButton" customModule="GARippleButton">
+                                <rect key="frame" x="172.5" y="318.5" width="30" height="30"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Text"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bTh-6d-RP6" customClass="GAContainedButton" customModule="GARippleButton">
+                                <rect key="frame" x="146.5" y="396.5" width="82.5" height="62"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="62" id="dMX-Tf-W89"/>
+                                </constraints>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Contained"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="containerColor">
+                                        <color key="value" systemColor="systemBrownColor"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="rippleColor">
+                                        <color key="value" systemColor="labelColor"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wxd-UD-MKE" customClass="GACircleButton" customModule="GARippleButton">
+                                <rect key="frame" x="156.5" y="208.5" width="62" height="62"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Wxd-UD-MKE" secondAttribute="height" multiplier="1:1" id="6yt-g6-kNZ"/>
+                                    <constraint firstAttribute="width" constant="62" id="Eob-yw-MQ2"/>
+                                </constraints>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Circle"/>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="bTh-6d-RP6" firstAttribute="top" secondItem="I0S-31-Et1" secondAttribute="bottom" constant="48" id="6fB-xk-JzG"/>
+                            <constraint firstItem="I0S-31-Et1" firstAttribute="centerY" secondItem="kh9-bI-dsS" secondAttribute="centerY" id="NMV-hQ-6to"/>
+                            <constraint firstItem="I0S-31-Et1" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="QDe-Dx-UWt"/>
+                            <constraint firstItem="I0S-31-Et1" firstAttribute="top" secondItem="Wxd-UD-MKE" secondAttribute="bottom" constant="48" id="aqO-7B-doZ"/>
+                            <constraint firstItem="Fim-iN-dH0" firstAttribute="centerX" secondItem="Wxd-UD-MKE" secondAttribute="centerX" id="cT0-iy-C9k"/>
+                            <constraint firstItem="Wxd-UD-MKE" firstAttribute="centerX" secondItem="I0S-31-Et1" secondAttribute="centerX" id="hAn-aH-2rU"/>
+                            <constraint firstItem="bTh-6d-RP6" firstAttribute="centerX" secondItem="I0S-31-Et1" secondAttribute="centerX" id="rrN-kR-XXM"/>
+                            <constraint firstItem="Wxd-UD-MKE" firstAttribute="top" secondItem="Fim-iN-dH0" secondAttribute="bottom" constant="48" id="xpy-wt-spg"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="circleButton" destination="Wxd-UD-MKE" id="IZ5-rD-cI4"/>
+                        <outlet property="containedButton" destination="bTh-6d-RP6" id="IPQ-Ev-K3v"/>
+                        <outlet property="outlineButton" destination="Fim-iN-dH0" id="dMB-Ow-naV"/>
+                        <outlet property="textButton" destination="I0S-31-Et1" id="WPs-X1-Jxg"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-44" y="-36"/>
         </scene>
     </scenes>
+    <designables>
+        <designable name="Fim-iN-dH0">
+            <size key="intrinsicContentSize" width="71" height="33"/>
+        </designable>
+        <designable name="bTh-6d-RP6">
+            <size key="intrinsicContentSize" width="82.5" height="33"/>
+        </designable>
+    </designables>
+    <resources>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBrownColor">
+            <color red="0.63529411764705879" green="0.51764705882352946" blue="0.36862745098039218" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
 </document>

@@ -1,5 +1,5 @@
 //
-//  OutlinedButton.swift
+//  GAOutlinedButton.swift
 //  GARippleButton
 //
 //  Created by Lidor Fadida on 24/01/2022.
@@ -14,7 +14,7 @@ protocol OutlinedButtonProtocol
 }
 
 @IBDesignable
-class OutlinedButton: ShapeableTrackableButton, Rippleable, OutlinedButtonProtocol
+public class GAOutlinedButton: ShapeableTrackableButton, Rippleable, OutlinedButtonProtocol
 {
     //MARK: - Inspectable
     @IBInspectable
@@ -78,7 +78,7 @@ class OutlinedButton: ShapeableTrackableButton, Rippleable, OutlinedButtonProtoc
 }
 
 //MARK: - Private API
-extension OutlinedButton
+extension GAOutlinedButton
 {
     private func commonInit()
     {
@@ -86,6 +86,8 @@ extension OutlinedButton
         clipsToBounds       = true
         
         rippleColor == nil ? rippleColor = titleLabel?.textColor.withAlphaComponent(rippleOpacity) : Void()
+        configureBorder()
+        configureRippleColor()
     }
     
     private func configureRippleColor()

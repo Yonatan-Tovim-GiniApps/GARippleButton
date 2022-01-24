@@ -7,12 +7,18 @@
 //
 
 import UIKit
+import GARippleButton
 
-class ViewController: UIViewController {
-
-    override func viewDidLoad() {
+class ViewController: UIViewController
+{
+    @IBOutlet weak var outlineButton    : GAOutlinedButton!
+    @IBOutlet weak var circleButton     : GACircleButton!
+    @IBOutlet weak var textButton       : GATextButton!
+    @IBOutlet weak var containedButton  : GAContainedButton!
+    
+    override func viewDidLoad()
+    {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
     }
 
     override func didReceiveMemoryWarning() {
