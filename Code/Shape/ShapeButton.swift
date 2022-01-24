@@ -16,7 +16,7 @@ public class ShapeButton : UIButton
     {
         super.layoutSubviews()
         configureLayer()
-        configureShapeLayer()
+        configureRippleLayer()
     }
 }
 

@@ -13,7 +13,7 @@ internal protocol Shapeable : UIView
     var rippleLayer : CAShapeLayer { get }
     
     func configureLayer()
-    func configureShapeLayer()
+    func configureRippleLayer()
 }
 
 internal extension Shapeable
@@ -28,7 +28,7 @@ internal extension Shapeable
         }
     }
     
-    func configureShapeLayer()
+    func configureRippleLayer()
     {
         let ratio           = max(bounds.height, bounds.width)
         let shapeLayerPath  = UIBezierPath(ovalIn: CGRect(origin: .zero, size: CGSize(width: ratio, height: ratio)))

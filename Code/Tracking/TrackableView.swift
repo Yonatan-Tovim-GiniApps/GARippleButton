@@ -9,7 +9,7 @@ import Foundation
 
 public class TrackableView: UIView ,Trackable
 {
-    internal var lastTouch  : CGPoint?
+    internal var lastTouch: CGPoint?
     
     public override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?)
     {
