@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
 
   s.description      = <<-DESC
  'RippleButton is a powerfull UIButton with ripple effect capabilities'
-
+                        DESC
   s.homepage         = 'https://github.com/lidorf-gini-apps/GARippleButton'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
