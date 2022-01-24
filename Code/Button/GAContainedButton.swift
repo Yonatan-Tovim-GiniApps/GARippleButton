@@ -130,9 +130,6 @@ extension GAContainedButton
 {
     private func commonInit()
     {
-        clipsToBounds       = true
-        layer.masksToBounds = false
-
         rippleColor == nil ? rippleColor = titleLabel?.textColor.withAlphaComponent(rippleOpacity) : Void()
         layer.insertSublayer(shadowLayer, at: 0)
         layer.insertSublayer(containerLayer, at: 3)
