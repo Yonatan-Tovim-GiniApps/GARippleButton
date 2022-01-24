@@ -10,7 +10,7 @@ import UIKit
 
 protocol Trackable : UIView
 {
-    var lastTouch  : CGPoint? { get set }
+    var lastTouch: CGPoint? { get set }
     
     func calculatePoint(_ touch: UITouch?)
 }

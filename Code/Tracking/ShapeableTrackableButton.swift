@@ -30,27 +30,24 @@ public class ShapeableTrackableButton : UIButton
     override public func layoutSubviews()
     {
         super.layoutSubviews()
-        subviews.forEach
-        {
-            $0.clipsToBounds = true
-        }
         configureLayer()
-        configureShapeLayer()
+        configureRippleLayer()
     }
     
     private func commonInit()
     {
         setupEdgeInsets()
+        subviews.forEach { $0.clipsToBounds = true }
     }
 }
 
-//MARK: - Lifecycle
 public extension ShapeableTrackableButton
 {
     private func setupEdgeInsets()
     {
-        let margin = 8.0
+        let margin      = 16.0
         let marginInset = UIEdgeInsets(top: margin, left: margin, bottom: margin, right: margin)
+        
         if #available(iOS 15, *)
         {
             var config              = Configuration.plain()
