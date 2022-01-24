@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'GARippleButton'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of GARippleButton.'
+  s.summary          = 'Adding ripple effects and shapes to UIButton.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,20 +18,22 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+ 'RippleButton is a powerfull UIButton with ripple effect capabilities'
 
   s.homepage         = 'https://github.com/lidorf-gini-apps/GARippleButton'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'lidorf-gini-apps' => 'lidorf@gini-apps.com' }
   s.source           = { :git => 'https://github.com/lidorf-gini-apps/GARippleButton.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.social_media_url = 'https://www.gini-apps.com/'
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'GARippleButton/Classes/**/*'
-  
+  s.source_files = 'GARippleButton/Code/**/*.swift'
+  s.swift_version = '5.0'
+  s.platforms = {
+      "ios" : "9.0"
+  }
   # s.resource_bundles = {
   #   'GARippleButton' => ['GARippleButton/Assets/*.png']
   # }

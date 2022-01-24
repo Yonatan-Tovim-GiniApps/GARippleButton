@@ -7,13 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		10772ED3279EE76D0071D6C5 /* ShapeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10772EBD279EE76D0071D6C5 /* ShapeButton.swift */; };
+		10772ED4279EE76D0071D6C5 /* Shape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10772EBE279EE76D0071D6C5 /* Shape.swift */; };
+		10772ED5279EE76D0071D6C5 /* Shapeable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10772EBF279EE76D0071D6C5 /* Shapeable.swift */; };
+		10772ED6279EE76D0071D6C5 /* Rippleable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10772EC1279EE76D0071D6C5 /* Rippleable.swift */; };
+		10772ED7279EE76D0071D6C5 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10772EC3279EE76D0071D6C5 /* UIView+Extensions.swift */; };
+		10772ED8279EE76D0071D6C5 /* CABasicAnimation+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10772EC4279EE76D0071D6C5 /* CABasicAnimation+Extensions.swift */; };
+		10772ED9279EE76D0071D6C5 /* CALayer+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10772EC5279EE76D0071D6C5 /* CALayer+Extensions.swift */; };
+		10772EDA279EE76D0071D6C5 /* CGPoint+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10772EC6279EE76D0071D6C5 /* CGPoint+Extensions.swift */; };
+		10772EDB279EE76D0071D6C5 /* ContainedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10772EC8279EE76D0071D6C5 /* ContainedButton.swift */; };
+		10772EDC279EE76D0071D6C5 /* OutlinedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10772EC9279EE76D0071D6C5 /* OutlinedButton.swift */; };
+		10772EDD279EE76D0071D6C5 /* TextButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10772ECA279EE76D0071D6C5 /* TextButton.swift */; };
+		10772EDE279EE76D0071D6C5 /* Typeable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10772ECB279EE76D0071D6C5 /* Typeable.swift */; };
+		10772EDF279EE76D0071D6C5 /* GARippleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10772ECC279EE76D0071D6C5 /* GARippleButton.swift */; };
+		10772EE0279EE76D0071D6C5 /* ShapeableTrackableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10772ECE279EE76D0071D6C5 /* ShapeableTrackableButton.swift */; };
+		10772EE1279EE76D0071D6C5 /* Trackable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10772ECF279EE76D0071D6C5 /* Trackable.swift */; };
+		10772EE2279EE76D0071D6C5 /* TrackableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10772ED0279EE76D0071D6C5 /* TrackableView.swift */; };
+		10772EE3279EE76D0071D6C5 /* ScaleType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10772ED2279EE76D0071D6C5 /* ScaleType.swift */; };
 		13D34A20D7F1629E5FE1C6B35FBF55EA /* GARippleButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C5CBD3B614B8960F2EEF457D2D762221 /* GARippleButton-dummy.m */; };
 		2E8E2E66F5A4C785A8C70C55E4A395C0 /* Pods-GARippleButton_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AFC8EEE4DDDBCCC019AFAC97EA9FC0B7 /* Pods-GARippleButton_Tests-dummy.m */; };
 		37331F229EE63970C815B44F60FD570A /* Pods-GARippleButton_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 45D8BB8B0937C50F4CCD3A117A568E50 /* Pods-GARippleButton_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5E17794E6D54CCF7BB1F032DD7C421EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		6BDBA4E0BE913CF39A61781ADCB8B53D /* Pods-GARippleButton_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 774E954BA86664AB2040032323D70E0E /* Pods-GARippleButton_Example-dummy.m */; };
 		C9F4DFC2A87D1CAF0CB8838340266F0C /* GARippleButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E31966AA75CB447E43ADE51C38189B34 /* GARippleButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CEAFDB19DD0C1016641C345A0B7D3398 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD309BDDFF58FAA178D21F6897C1168 /* ReplaceMe.swift */; };
 		D9954EC1798C0900BA2F258836778181 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		F6CB2A7B641E2FE7D9E5CF3A33F691E8 /* Pods-GARippleButton_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7084FABCA4B3A5EB552E76635A03F414 /* Pods-GARippleButton_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FD1697246A3AB225EB8C7D4E579A7331 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
@@ -37,31 +53,47 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		10772EBD279EE76D0071D6C5 /* ShapeButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShapeButton.swift; sourceTree = "<group>"; };
+		10772EBE279EE76D0071D6C5 /* Shape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shape.swift; sourceTree = "<group>"; };
+		10772EBF279EE76D0071D6C5 /* Shapeable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shapeable.swift; sourceTree = "<group>"; };
+		10772EC1279EE76D0071D6C5 /* Rippleable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rippleable.swift; sourceTree = "<group>"; };
+		10772EC3279EE76D0071D6C5 /* UIView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		10772EC4279EE76D0071D6C5 /* CABasicAnimation+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CABasicAnimation+Extensions.swift"; sourceTree = "<group>"; };
+		10772EC5279EE76D0071D6C5 /* CALayer+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CALayer+Extensions.swift"; sourceTree = "<group>"; };
+		10772EC6279EE76D0071D6C5 /* CGPoint+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGPoint+Extensions.swift"; sourceTree = "<group>"; };
+		10772EC8279EE76D0071D6C5 /* ContainedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainedButton.swift; sourceTree = "<group>"; };
+		10772EC9279EE76D0071D6C5 /* OutlinedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OutlinedButton.swift; sourceTree = "<group>"; };
+		10772ECA279EE76D0071D6C5 /* TextButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextButton.swift; sourceTree = "<group>"; };
+		10772ECB279EE76D0071D6C5 /* Typeable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Typeable.swift; sourceTree = "<group>"; };
+		10772ECC279EE76D0071D6C5 /* GARippleButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GARippleButton.swift; sourceTree = "<group>"; };
+		10772ECE279EE76D0071D6C5 /* ShapeableTrackableButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShapeableTrackableButton.swift; sourceTree = "<group>"; };
+		10772ECF279EE76D0071D6C5 /* Trackable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Trackable.swift; sourceTree = "<group>"; };
+		10772ED0279EE76D0071D6C5 /* TrackableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackableView.swift; sourceTree = "<group>"; };
+		10772ED2279EE76D0071D6C5 /* ScaleType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScaleType.swift; sourceTree = "<group>"; };
 		168B7B6BA15407FCA575DA180EE84DBC /* GARippleButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GARippleButton.modulemap; sourceTree = "<group>"; };
-		1B39CC4540BC5BEAD45812BE5D8318B1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		1B39CC4540BC5BEAD45812BE5D8318B1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		258B62E15C14E5136498C3B43317085D /* Pods-GARippleButton_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GARippleButton_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		27A35584C77CAC1E7EF0EABFD2CA3D3F /* GARippleButton.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GARippleButton.debug.xcconfig; sourceTree = "<group>"; };
 		2DE39BA89E23B3FDA82D31751891AF2E /* Pods-GARippleButton_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GARippleButton_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		2F47EFE920FAADC64CB9C84FB850CA8E /* GARippleButton.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = GARippleButton.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		2F47EFE920FAADC64CB9C84FB850CA8E /* GARippleButton.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = GARippleButton.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		3578762832B91B32A5471AF5A68A4C5A /* GARippleButton-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GARippleButton-Info.plist"; sourceTree = "<group>"; };
-		39683EDE8A1C3DC71382D7B112F61D25 /* GARippleButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GARippleButton.framework; path = GARippleButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		39683EDE8A1C3DC71382D7B112F61D25 /* GARippleButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GARippleButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		45D8BB8B0937C50F4CCD3A117A568E50 /* Pods-GARippleButton_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GARippleButton_Example-umbrella.h"; sourceTree = "<group>"; };
 		67C919D1EC388EE9BFA4450C050B71DD /* Pods-GARippleButton_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GARippleButton_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		7084FABCA4B3A5EB552E76635A03F414 /* Pods-GARippleButton_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GARippleButton_Tests-umbrella.h"; sourceTree = "<group>"; };
-		70F5CEF703EAF144552373DDE5B832B3 /* Pods_GARippleButton_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GARippleButton_Example.framework; path = "Pods-GARippleButton_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		70F5CEF703EAF144552373DDE5B832B3 /* Pods_GARippleButton_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GARippleButton_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		774E954BA86664AB2040032323D70E0E /* Pods-GARippleButton_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GARippleButton_Example-dummy.m"; sourceTree = "<group>"; };
 		794749B0F453707B43ABF8A66A475144 /* Pods-GARippleButton_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GARippleButton_Example.modulemap"; sourceTree = "<group>"; };
-		7E14C739A8CAB7330DE20FE201D01AD5 /* Pods_GARippleButton_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GARippleButton_Tests.framework; path = "Pods-GARippleButton_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E14C739A8CAB7330DE20FE201D01AD5 /* Pods_GARippleButton_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GARippleButton_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		856492E88B871C9E2D160F7C1977A369 /* GARippleButton.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GARippleButton.release.xcconfig; sourceTree = "<group>"; };
 		95386A8D7264ADE283B78DC5EF616E59 /* Pods-GARippleButton_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GARippleButton_Tests-Info.plist"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		ABD309BDDFF58FAA178D21F6897C1168 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = GARippleButton/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		AF87DDA04B34BEDC2D9A8536BC8D3925 /* GARippleButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GARippleButton-prefix.pch"; sourceTree = "<group>"; };
 		AFC8EEE4DDDBCCC019AFAC97EA9FC0B7 /* Pods-GARippleButton_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GARippleButton_Tests-dummy.m"; sourceTree = "<group>"; };
 		B5AF6C0F468544AE10195A078FB65E6E /* Pods-GARippleButton_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GARippleButton_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		B70F7A492147C98CA82A8B125AB4D1C4 /* Pods-GARippleButton_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GARippleButton_Tests.modulemap"; sourceTree = "<group>"; };
-		C1448CFB2D233D71A2D8B5C816CC21F6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		C1448CFB2D233D71A2D8B5C816CC21F6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		C5CBD3B614B8960F2EEF457D2D762221 /* GARippleButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GARippleButton-dummy.m"; sourceTree = "<group>"; };
 		C93861F0CD70FCBF08CE31E11CD8792B /* Pods-GARippleButton_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GARippleButton_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		CD0A1C527585B4D293B452EB69F70FBF /* Pods-GARippleButton_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GARippleButton_Example-frameworks.sh"; sourceTree = "<group>"; };
@@ -100,6 +132,78 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		10772EBB279EE76D0071D6C5 /* Code */ = {
+			isa = PBXGroup;
+			children = (
+				10772EBC279EE76D0071D6C5 /* Shape */,
+				10772EC0279EE76D0071D6C5 /* Ripple */,
+				10772EC2279EE76D0071D6C5 /* Extensions */,
+				10772EC7279EE76D0071D6C5 /* Button */,
+				10772ECC279EE76D0071D6C5 /* GARippleButton.swift */,
+				10772ECD279EE76D0071D6C5 /* Tracking */,
+				10772ED1279EE76D0071D6C5 /* Animations */,
+			);
+			path = Code;
+			sourceTree = "<group>";
+		};
+		10772EBC279EE76D0071D6C5 /* Shape */ = {
+			isa = PBXGroup;
+			children = (
+				10772EBD279EE76D0071D6C5 /* ShapeButton.swift */,
+				10772EBE279EE76D0071D6C5 /* Shape.swift */,
+				10772EBF279EE76D0071D6C5 /* Shapeable.swift */,
+			);
+			path = Shape;
+			sourceTree = "<group>";
+		};
+		10772EC0279EE76D0071D6C5 /* Ripple */ = {
+			isa = PBXGroup;
+			children = (
+				10772EC1279EE76D0071D6C5 /* Rippleable.swift */,
+			);
+			path = Ripple;
+			sourceTree = "<group>";
+		};
+		10772EC2279EE76D0071D6C5 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				10772EC3279EE76D0071D6C5 /* UIView+Extensions.swift */,
+				10772EC4279EE76D0071D6C5 /* CABasicAnimation+Extensions.swift */,
+				10772EC5279EE76D0071D6C5 /* CALayer+Extensions.swift */,
+				10772EC6279EE76D0071D6C5 /* CGPoint+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		10772EC7279EE76D0071D6C5 /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				10772EC8279EE76D0071D6C5 /* ContainedButton.swift */,
+				10772EC9279EE76D0071D6C5 /* OutlinedButton.swift */,
+				10772ECA279EE76D0071D6C5 /* TextButton.swift */,
+				10772ECB279EE76D0071D6C5 /* Typeable.swift */,
+			);
+			path = Button;
+			sourceTree = "<group>";
+		};
+		10772ECD279EE76D0071D6C5 /* Tracking */ = {
+			isa = PBXGroup;
+			children = (
+				10772ECE279EE76D0071D6C5 /* ShapeableTrackableButton.swift */,
+				10772ECF279EE76D0071D6C5 /* Trackable.swift */,
+				10772ED0279EE76D0071D6C5 /* TrackableView.swift */,
+			);
+			path = Tracking;
+			sourceTree = "<group>";
+		};
+		10772ED1279EE76D0071D6C5 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				10772ED2279EE76D0071D6C5 /* ScaleType.swift */,
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
 		18B73B0ABF4F8490A62559FEC149D731 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -163,7 +267,7 @@
 		AFCF10FF332A74B5E96A3CE7C8E1D43D /* GARippleButton */ = {
 			isa = PBXGroup;
 			children = (
-				ABD309BDDFF58FAA178D21F6897C1168 /* ReplaceMe.swift */,
+				10772EBB279EE76D0071D6C5 /* Code */,
 				AD7B419A62EDC2B907BC2079AD7487AB /* Pod */,
 				18B73B0ABF4F8490A62559FEC149D731 /* Support Files */,
 			);
@@ -316,7 +420,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1240;
-				LastUpgradeCheck = 1240;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					05ED62C74E8D02AC4C11973404F40326 = {
+						LastSwiftMigration = 1320;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -383,8 +492,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10772EDD279EE76D0071D6C5 /* TextButton.swift in Sources */,
+				10772EE2279EE76D0071D6C5 /* TrackableView.swift in Sources */,
+				10772EDE279EE76D0071D6C5 /* Typeable.swift in Sources */,
+				10772ED7279EE76D0071D6C5 /* UIView+Extensions.swift in Sources */,
+				10772EE1279EE76D0071D6C5 /* Trackable.swift in Sources */,
+				10772ED6279EE76D0071D6C5 /* Rippleable.swift in Sources */,
+				10772ED8279EE76D0071D6C5 /* CABasicAnimation+Extensions.swift in Sources */,
+				10772EDB279EE76D0071D6C5 /* ContainedButton.swift in Sources */,
+				10772EDC279EE76D0071D6C5 /* OutlinedButton.swift in Sources */,
+				10772EDF279EE76D0071D6C5 /* GARippleButton.swift in Sources */,
+				10772EE3279EE76D0071D6C5 /* ScaleType.swift in Sources */,
 				13D34A20D7F1629E5FE1C6B35FBF55EA /* GARippleButton-dummy.m in Sources */,
-				CEAFDB19DD0C1016641C345A0B7D3398 /* ReplaceMe.swift in Sources */,
+				10772EE0279EE76D0071D6C5 /* ShapeableTrackableButton.swift in Sources */,
+				10772EDA279EE76D0071D6C5 /* CGPoint+Extensions.swift in Sources */,
+				10772ED4279EE76D0071D6C5 /* Shape.swift in Sources */,
+				10772ED3279EE76D0071D6C5 /* ShapeButton.swift in Sources */,
+				10772ED5279EE76D0071D6C5 /* Shapeable.swift in Sources */,
+				10772ED9279EE76D0071D6C5 /* CALayer+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,7 +546,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/GARippleButton/GARippleButton-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/GARippleButton/GARippleButton-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/GARippleButton/GARippleButton.modulemap";
 				PRODUCT_MODULE_NAME = GARippleButton;
@@ -429,7 +554,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -452,7 +577,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/GARippleButton/GARippleButton-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/GARippleButton/GARippleButton-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/GARippleButton/GARippleButton.modulemap";
 				PRODUCT_MODULE_NAME = GARippleButton;
@@ -460,7 +585,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -482,7 +607,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-GARippleButton_Tests/Pods-GARippleButton_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-GARippleButton_Tests/Pods-GARippleButton_Tests.modulemap";
@@ -552,7 +677,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -580,7 +705,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-GARippleButton_Example/Pods-GARippleButton_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-GARippleButton_Example/Pods-GARippleButton_Example.modulemap";
@@ -612,7 +737,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-GARippleButton_Example/Pods-GARippleButton_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-GARippleButton_Example/Pods-GARippleButton_Example.modulemap";
@@ -645,7 +770,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-GARippleButton_Tests/Pods-GARippleButton_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-GARippleButton_Tests/Pods-GARippleButton_Tests.modulemap";
@@ -713,13 +838,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
