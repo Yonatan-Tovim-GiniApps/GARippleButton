@@ -90,15 +90,10 @@ public class GAContainedButton: ShapeableTrackableButton, Rippleable
     public override func layoutSubviews()
     {
         super.layoutSubviews()
-        let cornerRadii         : CGFloat
-        switch shape
-        {
-        case .rect: cornerRadii = .zero
-        case .circle: cornerRadii = bounds.width / 2.0
-        case .roundedRect(let radius): cornerRadii = radius
-        }
-        let boundsForLayer      = bounds
-        let pathForLayer        = UIBezierPath(roundedRect: boundsForLayer, cornerRadius: cornerRadii).cgPath
+        let padding             = 6.0
+        let cornerRadius        = calculateCornerRadius(shape: shape)
+        let boundsForLayer      = bounds.insetBy(dx: padding, dy: padding)
+        let pathForLayer        = UIBezierPath(roundedRect: boundsForLayer, cornerRadius: cornerRadius).cgPath
         let positionForLayer    = CGPoint(x: boundsForLayer.midX, y: boundsForLayer.midY)
         shadowLayer.shadowPath  = pathForLayer
         
@@ -162,6 +157,16 @@ extension GAContainedButton
         containerLayer.cornerRadius = layer.cornerRadius
         containerLayer.position.x   = position.x
         containerLayer.position.y   = position.y
+    }
+    
+    private func calculateCornerRadius(shape: Shape) -> CGFloat
+    {
+        switch shape
+        {
+        case .rect                      : return .zero
+        case .circle                    : return bounds.width / 2.0
+        case .roundedRect(let radius)   : return radius
+        }
     }
 }
 
